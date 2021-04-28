@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .clearfix{
     content: "";
@@ -47,10 +48,7 @@ header{
     margin-right: 20px;
     text-decoration: none;
 }
-.bottone-accedi a{
-    color: black;
-    font-size: 16px;
-}
+
 .accedi{
     margin-right: 0;
 }
@@ -78,10 +76,10 @@ header{
 a{
     text-decoration: none;
 }
-.button-white a{
+.button-white a, .bottone-accedi a{
     color:black;
 }
-.button-black a{
+.button-black a, .download a{
     color: white;
 }
 .button-white{
@@ -143,7 +141,27 @@ a{
     margin: 0 auto;
 }
 .picture-big{
-    border: 1px solid black;
     text-align: center;
+}
+.sfondo-testo{
+    width: 500px;
+    height: 50px;
+    background-image: url(./img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    line-height: 90px;
+    margin: 50px auto;
+    font-size: 18px;
+}
+.download{
+    margin: 0 auto;
+    text-align: center;
+    background-color: lightskyblue;
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
 }
 
