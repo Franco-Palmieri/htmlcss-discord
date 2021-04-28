@@ -37,18 +37,12 @@ header{
     text-align: center;
     font-size: 16px;
 }
-.menu ul li a{
-    color: white;
-}
 .menu ul li, .accedi{
-    list-style: none;
-    color: white;
     display: inline-block;
     line-height: 34px;
     margin-right: 20px;
     text-decoration: none;
 }
-
 .accedi{
     margin-right: 0;
 }
@@ -79,7 +73,7 @@ a{
 .button-white a, .bottone-accedi a{
     color:black;
 }
-.button-black a, .download a, .button-signup a{
+.button-black a, .download a, .button-signup a, .menu ul li a{
     color: white;
 }
 .button-white{
@@ -188,7 +182,6 @@ footer{
 }
 .liste li{
     color:white;
-    list-style: none;
     margin: 0 0 15px 90px;
 }
 .bottom-bar{
@@ -214,4 +207,7 @@ footer{
 }
 .logo-bottom{
     display: inline-block;
+}
+li{
+    list-style: none;
 }
