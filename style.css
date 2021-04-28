@@ -170,12 +170,10 @@ footer{
 }
 .container-footer{
     max-width: 1200px;
-    border: 1px solid black;
     margin: 0 auto;
 }
 .testo-footer{
     width: 250px;
-    border: 2px solid red;
     margin-right: 100px;
     font-size: 20px;
     color: rgb(96, 96, 223);
