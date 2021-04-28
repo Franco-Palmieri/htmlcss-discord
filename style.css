@@ -66,6 +66,10 @@ header{
 }
 .buttons{
     margin-top: 20px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    margin-right: 20px;
 }
 a{
     text-decoration: none;
@@ -80,18 +84,14 @@ a{
     width: 150px;
     height: 40px;
     background-color: white;
-    text-align: center;
-    line-height: 40px;
     display: inline-block;
-    margin-right: 20px;
     border-radius: 30px;
+    
 }
 .button-black{
     width: 250px;
     height: 40px;
     background-color: black;
-    text-align: center;
-    line-height: 40px;
     display: inline-block;
     border-radius: 30px;
 }
