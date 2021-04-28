@@ -27,7 +27,7 @@ header{
     height: 34px;
     margin-top: 20px;
 }
-.logo, .accedi{
+.topbar .logo, .accedi{
     width: 25%;
     height: 100%;
 }
@@ -111,7 +111,7 @@ a{
     margin: 100px 0 0 100px;
 }
 .testo-2 h2, .testo-3 h2, .testo-4 h2, .testo-5 h2{
-    font-size: 40px;
+    font-size: 39px;
     padding-bottom: 20px;
 }
 .container-3{
@@ -164,4 +164,27 @@ a{
     border-radius: 30px;
     font-size: 20px;
 }
-
+footer{
+    background-color: rgb(50, 97, 126);
+    padding: 100px;
+}
+.container-footer{
+    max-width: 1200px;
+    border: 1px solid black;
+}
+.testo-footer{
+    width: 250px;
+    border: 2px solid red;
+    margin-right: 200px;
+    font-size: 20px;
+}
+.input-lingua{
+    margin: 10px 0 10px 0;
+    color: white;
+    font-size: 15px;
+}
+.liste li{
+    color:white;
+    list-style: none;
+    margin: 0 0 10px 100px;
+}
