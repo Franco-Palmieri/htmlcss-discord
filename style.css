@@ -79,7 +79,7 @@ a{
 .button-white a, .bottone-accedi a{
     color:black;
 }
-.button-black a, .download a{
+.button-black a, .download a, .button-signup a{
     color: white;
 }
 .button-white{
@@ -185,8 +185,35 @@ footer{
     color: white;
     font-size: 15px;
 }
+.capolista{
+    color: rgb(96, 96, 223);
+}
 .liste li{
     color:white;
     list-style: none;
     margin: 0 0 15px 90px;
+}
+.bottom-bar{
+    margin: 0 auto;
+    height: 34px;
+    width: 100%;
+    margin-top: 50px;
+    border-top: 2px solid rgb(96, 96, 223);
+    padding-top: 30px;
+    position: relative;
+}
+.button-signup{
+   width: 100px;
+   height: 34px; 
+   text-align: center;
+   line-height: 34px;
+   background-color:  rgb(96, 96, 223);
+   border-radius: 30px;
+   display: inline-block;
+   position: absolute;
+   top: 30px;
+   right: 0;
+}
+.logo-bottom{
+    display: inline-block;
 }
