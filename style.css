@@ -34,6 +34,7 @@ header{
     width: 50%;
     height: 100%;
     text-align: center;
+    font-size: 16px;
 }
 .menu ul li a{
     color: white;
@@ -48,6 +49,7 @@ header{
 }
 .bottone-accedi a{
     color: black;
+    font-size: 16px;
 }
 .accedi{
     margin-right: 0;
@@ -115,18 +117,17 @@ a{
     padding-bottom: 20px;
 }
 .container-3{
-    background-color: rgb(233, 233, 233);
     width: 100%;
-    height: 695px;
+    margin: 100px auto;
+
 }
-.contained{
-    width: 1200px;
-    margin: 150px auto;
+.sfondo{
+    background-color: rgb(236, 230, 230);
+    padding: 40px;
 }
 .testo-3{
     width: 300px;
     height: 300px;
-    border: 1px solid black;
     margin: 100px 200px 0 0;
 }
 
