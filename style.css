@@ -16,6 +16,7 @@ header{
     background-image: url(./img/jumbo.png);
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 .container{
     width: 1200px;
@@ -23,39 +24,79 @@ header{
 }
 .topbar{
     height: 34px;
-    margin-top: 10px;
-    border: 1px solid white;
+    margin-top: 20px;
 }
 .logo, .accedi{
     width: 25%;
     height: 100%;
-    border: 1px solid white;
 }
 .menu{
     width: 50%;
     height: 100%;
-    border: 1px solid white;
     text-align: center;
 }
-.menu ul li, .accedi{
+.menu ul li,.menu ul li a, .accedi{
     list-style: none;
     color: white;
     display: inline-block;
     line-height: 34px;
     margin-right: 20px;
+    text-decoration: none;
 }
-a{
+.bottone-accedi a{
     text-decoration: none;
     color: black;
 }
 .accedi{
     margin-right: 0;
-    text-align: right;
 }
 .bottone-accedi{
     background-color: white;
     height: 100%;
-    width: 50px;
+    width: 80px;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 80%;
+}
+.testo-1{
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin: 150px auto;
+}
+.testo-1 h1{
+    padding-bottom: 20px;
+}
+.buttons{
+    margin-top: 20px;
+}
+.buttons a{
+    text-decoration: none;
+}
+.button-white a{
+    color:black;
+}
+.button-black a{
+    color: white;
+}
+.button-white{
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+.button-black{
+    width: 250px;
+    height: 40px;
+    background-color: black;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    border-radius: 30px;
 }
 
 
